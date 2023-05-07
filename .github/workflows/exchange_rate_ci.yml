@@ -43,8 +43,8 @@ jobs:
         sonar-scanner \
           -Dsonar.projectKey='KasiaGibert_WSB_GIT' \
           -Dsonar.organization='kasiagibert' \
-          -Dsonar.sources='Password Manager/app/' \
-          -Dsonar.tests='Password Manager/tests/' \
+          -Dsonar.sources='Exchange rate/app/' \
+          -Dsonar.tests='Exchange rate/test/' \
           -Dsonar.python.coverage.reportPaths=coverage.xml \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=$SONAR_TOKEN
