@@ -24,7 +24,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r 'T9/Exchange rate/requirements.txt'
-    - name: Run tests
+    - name: Run test
       run: |
         cd 'T9/Exchange rate'
         export PYTHONPATH="${PYTHONPATH}:$(pwd)"
